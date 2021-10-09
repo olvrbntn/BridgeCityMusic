@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* Remove gaps on sides */
+html,body {
+  margin:0;
+  padding:0;
+  overflow-x:hidden;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #D8EEE1;
+    background-color: #EFF8F3;
+    font-size: 22px;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  .container{
+    background-color: #1C422B;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+  }
+
+  nav{
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    height: 60px;
+    justify-content: space-between;
+    padding: 20px;
+
+  }
+
+  .logo{
+    display: flex;
+    width: 100px;
+    height: 100px;
+    /* justify-items: flex-start; */
+  }
+
+  .menu{
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    background-color: #1C422B;
+    
+
+  }
+
+  .menu li {
+    margin: 10px 10px;
+    list-style-type: none;
+    
+  }
+
+  main{
+    display: flex;
+    flex-direction: column;
+  }
+
+  main div.banner{
+    display: flex;
+    /* background-image: url("https://codecademy-content.s3.amazonaws.com/PRO/independent-practice-projects/flexbox-business-site/img/skyscrapers.jpg"); */
+    background-image: url("../Images/GuitarsBannerBackground.png");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    width: 100%;
+    height: 540px;
+    align-items: center;
+    justify-content: center;
+
+    /* z-index: 100; */
+
+  }
+
+  .title{
+    font-size: 72px;
+    opacity: .8;
+  }
+
+  .menu a{
+    text-decoration: none;
+    color: #D8EEE1;
+  
+
+  }
+  /* .menu li{
+    color: D8EEE1;
+
+  } */
+
+
+ 
+
+
+
+  /* About Section */
+  .about{
+    display: flex;
+    padding: 20px 40px;
+    flex-direction: column;
+    align-items: center;
+
+  }
+
+  .subcontainer{
+    max-width: 60%;
+  }
+
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  /* Guitars Section */
+  .gallery{
+    display: flex;
+    /* width: 100%; */
+    max-width: 80%;
+
+
+    flex-direction: row;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    /* border: solid #EFF8F3 ; */
+    padding: 40px 0px;
+  }
+
+  .electricguitars{
+    display: flex;
+    max-width: 70%;
+
+    flex-direction: row;
+    /* align-items: center; */
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: center;
+    /* border: solid #EFF8F3 ; */
+    padding: 40px 0px;
+  }
+
+ .galleryitem{
+  display: flex;
+  flex-direction: column;
+  padding: 15px;
+  align-items: center;
+  
+
+  
+ }
+
+ .galleryitem img{
+   width: 100%;
+   height: 410px;
+   flex-shrink: 4;
+   flex-basis: 400px;
+   
+ }
+ .galleryitem p{
+   font-size: 14px;
+   padding: 10px;
+   background-color: rgba(105, 105, 105, .4);
+ }
+
+
+ /* Teams Section */
+.team img{
+  max-width: 350px;
+}
+
+ .team p{
+   padding: 10px 80px;
+ }
+
+
+
+
+
+
+
+/* Contact Section */
+.contact{
+    display: flex;
+    width: 100%;
+
+    flex-direction: column;
+    /* align-items: center; */
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+
+ .contact img{
+   /* display: flex; */
+   /* height: 400px; */
+  width: 600px;
+  flex-shrink: 4;
+  /* flex-basis: 400px; */
+   
+ 
+ }
+
+ .hours{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+ }
+
+
+ .hours ul{
+  display: flex;
+  padding: 0;
+  flex-direction: column;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* border: solid #EFF8F3 ; */
+ }
+
+ 
+ .hours li{
+  /* display: flex; */
+  margin: 5px;
+  list-style-type: none;
+  font-size: 12px;
+ }

@@ -81,7 +81,7 @@ body {
   }
 
   .title{
-    font-size: 72px;
+    font-size: 76px;
     opacity: .8;
   }
 
@@ -219,7 +219,7 @@ body {
  .contact img{
    /* display: flex; */
    /* height: 400px; */
-  width: 600px;
+  width: 500px;
   flex-shrink: 4;
   /* flex-basis: 400px; */
   border-radius: 15px;
